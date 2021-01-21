@@ -7,13 +7,14 @@ Such a property and topology-specific method will result in a repository of algo
 
 Installation instruction:
 
-1- Download 
-1- Copy espresso-ab-1.0-master.zip in root of program file and make it unzip
+1- Download the source file
 
-2- Install espresso:
- 1- ./configure
- 2- make
+2- Copy espresso-ab-1.0-master.zip from the source file into root of program file and make it unzip
 
-3- Install and run the program:
- 1-  g++  *.cpp -I.  -o SynLeadsTo  -ldl
- 2-  ./SynLeadsTo 
+3- Install espresso:
+ 3.1 - ./configure
+ 3.2 - make
+
+4- Install and run the program:
+ 4.1 -  g++  *.cpp -I.  -o SynLeadsTo  -ldl
+ 4.2 -  ./SynLeadsTo 
