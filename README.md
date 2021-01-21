@@ -12,9 +12,13 @@ Installation instruction:
 2- Copy espresso-ab-1.0-master.zip from the source file into root of program file and make it unzip
 
 3- Install espresso:
- 3.1 - ./configure
- 3.2 - make
 
+ 3.1 - ./configure
+ 
+ 3.2 - make
+ 
 4- Install and run the program:
+
  4.1 -  g++  *.cpp -I.  -o SynLeadsTo  -ldl
+ 
  4.2 -  ./SynLeadsTo 
